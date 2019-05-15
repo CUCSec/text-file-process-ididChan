@@ -8,8 +8,8 @@ for file in files:
     with open(path + '//' + file,encoding='utf8') as f:
         for line in f:
             stu = line.split(',')[1]
-            stu_id = stu[14:]
-            if stu_id == '29':
+            stu_id = stu[4:]
+            if stu_id == '201811123029':
                 counter =counter + 1
 
 print(counter)
